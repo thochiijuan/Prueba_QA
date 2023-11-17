@@ -32,7 +32,7 @@ class LoginValidationsTests(unittest.TestCase):
         expected_text = "x\nNúmero del Cliente o contraseña incorrecta"
         alert_text = loginValidations.user_password_required()
         self.assertEqual(alert_text, expected_text, f"NO se está validando que el campo Password sea requerido. "
-                                                    f"Se esperaba: '{expected_text}', pero se obtuvo: '{alert_text}'.")
+                                                    f"Se esperab: '{expected_text}', pero se obtuvo: '{alert_text}'.")
 
     # Finaliza el test
     def tearDown(self):
